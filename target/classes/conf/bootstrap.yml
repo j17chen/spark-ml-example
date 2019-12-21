@@ -1,0 +1,39 @@
+spring:
+  profiles:
+    active: native
+  cloud:
+    bus:
+      trace:
+        enabled: true
+    config:
+      discovery:
+        enabled: true
+        service-id: qdgx-dmp-config
+eureka:
+  instance:
+    prefer-ip-address: true
+    lease-expiration-duration-in-seconds: 10
+    lease-renewal-interval-in-seconds: 10
+  client:
+    service-url:
+      defaultZone: http://root:root@192.168.100.109:8700/eureka/
+logging:
+  config: classpath:logback.xml
+bonecp:
+  driverClass: org.apache.hive.jdbc.HiveDriver
+  url: jdbc:hive2://192.168.100.144:10016/default
+  username: null
+  password: null
+  idleMasAgeInMinutes: 240
+  idleConnectionTestPeriodInMinutes: 60
+  maxConnectionsPerPartition: 10
+  minConnectionsPerPartition: 1
+  partitionCount: 2
+  acquireIncrement: 5
+  statementsCacheSize: 100
+authentication:
+  type:  null #kerberos
+  kerberos: 
+    krb5FilePath: krb5.ini
+    principal: hive/master.embracesource.com@EXAMPLE.COM
+    keytab: hive.service.keytab

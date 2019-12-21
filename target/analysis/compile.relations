@@ -1,0 +1,28 @@
+products:
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> target/classes/LocalSparkDriver$.class
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> target/classes/LocalSparkDriver.class
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> target/classes/SparkDriverType$class.class
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> target/classes/SparkDriverType.class
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> target/classes/SparkUtils$.class
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> target/classes/SparkUtils.class
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> target/classes/YarnClientSparkDriver$.class
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> target/classes/YarnClientSparkDriver.class
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> target/classes/YarnClusterSparkDriver$.class
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> target/classes/YarnClusterSparkDriver.class
+binary dependencies:
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> /home/jchen/.m2/repository/org/apache/spark/spark-sql_2.11/2.1.0.cloudera2/spark-sql_2.11-2.1.0.cloudera2.jar
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> /home/jchen/.m2/repository/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> /usr/jdk1.8.0_221/jre/lib/rt.jar
+source dependencies:
+external dependencies:
+class names:
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> LocalSparkDriver
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> LocalSparkDriver$
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> SparkDriverType
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> SparkDriverType$class
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> SparkUtils
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> SparkUtils$
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> YarnClientSparkDriver
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> YarnClientSparkDriver$
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> YarnClusterSparkDriver
+   src/main/scala/com.qdgx.dmp.sparkml/SparkUtils.scala -> YarnClusterSparkDriver$

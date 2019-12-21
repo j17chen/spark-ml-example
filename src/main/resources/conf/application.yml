@@ -1,0 +1,17 @@
+server: 
+  port: 8722
+  tomcat:
+    basedir: /Users/jiangneng/Downloads #/temp/dmp-bs
+    max-http-post-size: 104857600
+  max-http-header-size: 104857600
+
+spring: 
+  application: 
+    name: qdgx-dmp-spark
+ 
+  jpa:
+    hibernate: 
+      ddl-auto: update #ddl-auto:\u8BBE\u4E3Aupdate\u8868\u793A\u6BCF\u6B21\u90FD\u4E0D\u4F1A\u91CD\u65B0\u5EFA\u8868
+    show-sql: false
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect  #不加这句则默认为myisam引擎
+
